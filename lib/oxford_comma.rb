@@ -1,6 +1,6 @@
 def oxford_comma(array)
   b = array.slice(-1).insert(0, ", and ")
-  case 
+  case
     when array.length == 1
       array.join
     when array.length == 2
